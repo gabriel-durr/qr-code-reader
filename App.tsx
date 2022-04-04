@@ -11,10 +11,6 @@ import {
 } from "react-native";
 import { findProductByCode, IProduct } from "./services/api";
 
-import { Audio } from "expo-av";
-
-// criar audio
-
 async function askForPermission() {
     const { status } = await BarCodeScanner.requestPermissionsAsync();
 
@@ -47,10 +43,19 @@ export default function App() {
 
     return (
         <SafeAreaView style={styles.container}>
-            <Text style={styles.title}>QR code Scanner</Text>
+            <Image
+                style={styles.mark}
+                source={require("./assets/fenixMyMarkFullWhite.png")}
+            />
+            <Text style={styles.title}>QR scanner in Market 🛒</Text>
+
+            <Image
+                style={styles.doubt}
+                source={require("./assets/duvida.png")}
+            />
 
             <Text style={styles.subtitle}>
-                Encontre o preço dos itens que você precisa
+                Encontre o preço dos produtos em nosso supermercado 🌟
             </Text>
 
             {product === undefined && (
@@ -102,24 +107,22 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: "center",
         backgroundColor: "rgb(32,32,50)",
-        justifyContent: "space-around",
     },
     title: {
         fontSize: 30,
         fontWeight: "bold",
-        marginVertical: 40,
         color: "#c06b0b",
     },
     subtitle: {
         fontSize: 20,
         color: "#c5cec7",
-        marginVertical: 20,
+        marginVertical: 70,
         marginHorizontal: 10,
     },
     button: {
         marginVertical: 20,
         padding: 12,
-        backgroundColor: "#335988",
+        backgroundColor: "#3f5d81",
         borderRadius: 50,
     },
     buttonText: {
@@ -139,7 +142,7 @@ const styles = StyleSheet.create({
     productName: {
         fontSize: 30,
         fontWeight: "bold",
-        color: "#b9cee7",
+        color: "#e6e6e6",
     },
     productImage: {
         width: "100%",
@@ -150,5 +153,17 @@ const styles = StyleSheet.create({
         marginVertical: 30,
         width: 350,
         height: 350,
+    },
+
+    mark: {
+        width: "50%",
+        height: "20%",
+        resizeMode: "contain",
+        alignSelf: "flex-start",
+    },
+    doubt: {
+        width: 200,
+        height: 200,
+        resizeMode: "center",
     },
 });

@@ -21,7 +21,7 @@ const data = [
 
     {
         name: "Esmalte",
-        price: "R$ 17,00",
+        price: "R$ 5,00",
         code: "7898196101075",
         image: "https://i.imgur.com/qjW5aKd.jpg",
     },
