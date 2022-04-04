@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<img align="center" src="https://media3.giphy.com/media/22qIRSAvUC7QqDKxJV/giphy.gif?cid=790b76111ebf0b63c947496dd28df6b6b8a4a73ed7dd26b1&rid=giphy.gif&ct=g" alt="" width="300px">
+<img align="center" src="https://media2.giphy.com/media/uehARiz8DASGSy085s/giphy.gif?cid=790b761176046c01fcd00bdeec684a298c9d3f41bd411275&rid=giphy.gif&ct=g" alt="Imagem do projeto" width="270px">
 
 </div>
 
