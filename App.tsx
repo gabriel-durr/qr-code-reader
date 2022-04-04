@@ -26,11 +26,9 @@ export default function App() {
     }, []);
 
     function onBarCodeScanned(payload: { data: string }) {
-        // com o código de barras, podemos consultar a nossa API
         const product = findProductByCode(payload.data);
         setProduct(product);
         setScanning(false);
-        // após o retorno da API podemos salvar o produto em um estado
     }
 
     if (hasPermission === null) {
@@ -47,7 +45,7 @@ export default function App() {
                 style={styles.mark}
                 source={require("./assets/fenixMyMarkFullWhite.png")}
             />
-            <Text style={styles.title}>QR scanner in Market 🛒</Text>
+            <Text style={styles.title}>QR scanner in Market</Text>
 
             <Image
                 style={styles.doubt}
@@ -80,10 +78,7 @@ export default function App() {
             {scanning && (
                 <BarCodeScanner
                     onBarCodeScanned={onBarCodeScanned}
-                    style={{
-                        height: 450,
-                        width: "100%",
-                    }}
+                    style={StyleSheet.absoluteFillObject}
                 />
             )}
 
@@ -122,7 +117,7 @@ const styles = StyleSheet.create({
     button: {
         marginVertical: 20,
         padding: 12,
-        backgroundColor: "#3f5d81",
+        backgroundColor: "#335988",
         borderRadius: 50,
     },
     buttonText: {
@@ -133,6 +128,20 @@ const styles = StyleSheet.create({
     productContainer: {
         flex: 1,
         alignItems: "center",
+        justifyContent: "flex-start",
+        marginTop: -380,
+        backgroundColor: "#fafafa",
+        borderRadius: 10,
+
+        shadowColor: "#553f01",
+        shadowOffset: {
+            width: 0,
+            height: 12,
+        },
+        shadowOpacity: 0.58,
+        shadowRadius: 16.0,
+
+        elevation: 24,
     },
     productPrice: {
         fontSize: 42,
@@ -142,12 +151,13 @@ const styles = StyleSheet.create({
     productName: {
         fontSize: 30,
         fontWeight: "bold",
-        color: "#e6e6e6",
+        color: "#080303",
     },
     productImage: {
         width: "100%",
         height: "100%",
         resizeMode: "cover",
+        borderRadius: 5,
     },
     productImageContainer: {
         marginVertical: 30,
