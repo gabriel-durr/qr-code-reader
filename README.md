@@ -57,10 +57,9 @@ The idea of this app is to help customers with the price query of the products, 
 
 3- To start the application:
 
-  expo start 
-  
+  expo start   
 ```
-<br><br><br>
+<br><br>
 
 <h2 id = "author"> 🎨 Author</h2>
 
