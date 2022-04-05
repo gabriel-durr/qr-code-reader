@@ -20,7 +20,10 @@
 
 <p> Mobile APP of a QR code reader, which is important and widely used in various areas throughout the market. With a QR reader we can make traditional readings, or even more complex data..
 
-The idea of this app is to help customers with the price query of the products, because in many supermarkets the barcode reading machine is sendable due to the price for the establishment. </p>
+The idea of this app is to help customers with the price query of the products, because in many supermarkets the barcode reading machine is sendable due to the price for the establishment. 
+</p>
+
+<p>  Also create an apk build to test the functionality on smartphone </p>
 
 <br>
 
@@ -57,18 +60,17 @@ The idea of this app is to help customers with the price query of the products, 
   expo start 
   
 ```
-<br><br>
+<br><br><br>
 
 <h2 id = "author"> 🎨 Author</h2>
-<b>
 
 <table>
   <tr>
     <td align="center">
       <a href="https://github.com/gabriel-durr">
-        <img src="https://i.imgur.com/5l2Fuzo.jpg" width="80px;" alt="Image Gabriel Dürr Author"/><br>
+        <img src="https://i.pinimg.com/736x/2d/0a/52/2d0a524829bc30e731bddac6fa0a0d08.jpg" width="95px;" alt="Image Gabriel Dürr Author"/><br>
         <sub>
-          <b><em>Gabriel Dürr M.💜</em></b>
+          <b><em>Gabriel Dürr M.</em></b>
         </sub>
       </a>
     </td>
