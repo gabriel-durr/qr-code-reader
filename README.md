@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<img align="center" src="https://media2.giphy.com/media/uehARiz8DASGSy085s/giphy.gif?cid=790b761176046c01fcd00bdeec684a298c9d3f41bd411275&rid=giphy.gif&ct=g" alt="Imagem do projeto" width="270px">
+<img align="center" src="https://media0.giphy.com/media/GwytuaRf2bvYyQEBEL/giphy.gif?cid=790b7611af515bc847aa23c8e8efc80d12b171dceebbcfed&rid=giphy.gif&ct=g" alt="Imagem do projeto" width="270px">
 
 </div>
 
@@ -26,30 +26,36 @@ The idea of this app is to help customers with the price query of the products, 
 
 <h2 id="links">🔗 Links</h2>
 
-- <a href="https://docs.expo.dev"> Expo CLI docn</a>
+- <a href="https://docs.expo.dev"> Expo CLI docs</a>
 - <a href="https://reactnative.dev/"> React Native install</a>
 
 
  <br><br>
 <h2 id="built_with"> 🧙‍♂️ Built with</h2>
 
-<img width="27px" src="https://img.icons8.com/color/344/react-native.png"/>  <code>React Native</code>
+<img width="27px" src="https://img.icons8.com/color/344/react-native.png"/>   <code>React Native</code>
 
-<img width="30px" src="https://play-lh.googleusercontent.com/algsmuhitlyCU_Yy3IU7-7KYIhCBwx5UJG4Bln-hygBjjlUVCiGo1y8W5JNqYm9WW3s"/><code>Expo CLI</code>
+<img width="30px" src="https://play-lh.googleusercontent.com/algsmuhitlyCU_Yy3IU7-7KYIhCBwx5UJG4Bln-hygBjjlUVCiGo1y8W5JNqYm9WW3s"/>    <code>Expo CLI</code>
 
 <br><br>
 
 
 
 ```
-1- To install dependencies:
+1- Clone the project:
 
- - expo install 
+  git clone https://github.com/gabriel-durr/qr-code-reader.git
 
 
- 2- To start the application:
+2- To install dependencies:
 
-- expo start 
+  expo install 
+
+
+3- To start the application:
+
+  expo start 
+  
 ```
 <br><br>
 
