@@ -15,6 +15,7 @@
       <a href="#built_with">Built with</a> |
        <a href="#author">Author</a> |
 </div>
+<br>
 
 <h2 id="project">⚡ The project  </h2>
 
