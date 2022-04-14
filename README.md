@@ -35,9 +35,22 @@
  <br><br>
 <h2 id="built_with"> 🧙‍♂️ Built with</h2>
 
-<img width="27px" src="https://img.icons8.com/color/344/react-native.png"/>   <code>React Native</code>
+<br>
+<div id="react-native">
+<img align="left" src="https://img.icons8.com/color/344/react-native.png" width="32px"/> 
+    <p align="left"><code><b>React Native</b></code></p> 
+</div>
 
-<img width="30px" src="https://play-lh.googleusercontent.com/algsmuhitlyCU_Yy3IU7-7KYIhCBwx5UJG4Bln-hygBjjlUVCiGo1y8W5JNqYm9WW3s"/>    <code>Expo CLI</code>
+
+<div id="expo-cli">
+<img align="left" src="https://play-lh.googleusercontent.com/algsmuhitlyCU_Yy3IU7-7KYIhCBwx5UJG4Bln-hygBjjlUVCiGo1y8W5JNqYm9WW3s" width="32px"/> 
+    <p align="left"><code><b>Expo CLI</b></code></p>
+</div>
+
+<div id="typescript">
+<img align="left" class="icon" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-shadow-tal-revivo.png" width="31px"/>
+    <p align="left"><code><b>TypeScript</b></code></p>
+</div>
 
 <br><br>
 
