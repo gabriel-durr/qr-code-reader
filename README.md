@@ -17,14 +17,12 @@
 </div>
 <br>
 
-<h2 id="project">⚡ The project  </h2>
+<h2 id="project"  align="center">⚡ The project  </h2>
 
-<p> Mobile APP of a QR code reader, which is important and widely used in various areas throughout the market. With a QR reader we can make traditional readings, or even more complex data..
-
-The idea of this app is to help customers with the price query of the products, because in many supermarkets the barcode reading machine is sendable due to the price for the establishment. 
+<p  align="center"> Mobile APP of a QR code reader, which is important and widely used in various areas throughout the market. With a QR reader we can make traditional readings, or even more complex data... The idea of this app is to help customers with the price query of the products, because in many supermarkets the barcode reading machine is sendable due to the price for the establishment. 
 </p>
 
-<p>  Also create an apk build to test the functionality on smartphone </p>
+<p  align="center">  Also create an apk build to test the functionality on smartphone </p>
 
 <br>
 
