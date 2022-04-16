@@ -29,7 +29,7 @@
 <h2 id="links">🔗 Links</h2>
 
 - <a href="https://docs.expo.dev"> Expo CLI docs</a>
-- <a href="https://reactnative.dev/"> React Native install</a>
+- <a href="https://reactnative.dev/"> React Native docs</a>
 
 
  <br><br>
