@@ -37,18 +37,18 @@
 
 <br>
 <div id="react-native">
-<img align="left" src="https://img.icons8.com/color/344/react-native.png" width="30px"/> 
+<img align="left" src="https://img.icons8.com/color/344/react-native.png" width="29px"/> 
     <p align="left"><code><b>React Native</b></code></p> 
 </div>
 
 
 <div id="expo-cli">
-<img align="left" src="https://play-lh.googleusercontent.com/algsmuhitlyCU_Yy3IU7-7KYIhCBwx5UJG4Bln-hygBjjlUVCiGo1y8W5JNqYm9WW3s" width="30px"/> 
+<img align="left" src="https://play-lh.googleusercontent.com/algsmuhitlyCU_Yy3IU7-7KYIhCBwx5UJG4Bln-hygBjjlUVCiGo1y8W5JNqYm9WW3s" width="29px"/> 
     <p align="left"><code><b>Expo CLI</b></code></p>
 </div>
 
 <div id="typescript">
-<img align="left" class="icon" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-shadow-tal-revivo.png" width="29px"/>
+<img align="left" class="icon" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-shadow-tal-revivo.png" width="28px"/>
     <p align="left"><code><b>TypeScript</b></code></p>
 </div>
 
