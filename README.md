@@ -5,7 +5,6 @@
 
 <img align="center" src="https://media0.giphy.com/media/GwytuaRf2bvYyQEBEL/giphy.gif?cid=790b7611af515bc847aa23c8e8efc80d12b171dceebbcfed&rid=giphy.gif&ct=g" alt="Imagem do projeto" width="270px">
 
-    
 </div>
 
 <br>
