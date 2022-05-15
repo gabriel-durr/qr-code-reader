@@ -11,6 +11,7 @@ import {
 } from "react-native";
 import { findProductByCode, IProduct } from "./services/api";
 
+
 async function askForPermission() {
     const { status } = await BarCodeScanner.requestPermissionsAsync();
 
