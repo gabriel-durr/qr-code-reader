@@ -1,5 +1,6 @@
 import { BarCodeScanner } from "expo-barcode-scanner";
 
+
 import React, { useEffect, useState } from "react";
 import {
     StyleSheet,
